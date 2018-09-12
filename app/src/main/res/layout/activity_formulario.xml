@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15sp"
+    tools:context="com.matheus.zoo_m171.FormularioActivity">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtNome"
+        style="@style/estiloLabel"/>
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintNome"
+        style="@style/estiloCampos"
+        android:id="@+id/etNomeAnimal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtIdade"
+        style="@style/estiloLabel"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintIdade"
+        style="@style/estiloCampos"
+        android:id="@+id/etIdade"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtCategoria"
+        style="@style/estiloLabel"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spCategoria">
+    </Spinner>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtSalvar"
+        android:id="@+id/btnSalvar"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

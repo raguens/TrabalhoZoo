@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Zoo_M171</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="txtNome">Nome do Animal</string>
+    <string name="hintNome">Digite aqui o nome da espécie</string>
+
+    <string name="txtIdade">Idade do bixin</string>
+    <string name="hintIdade">Informe a idade do espécime</string>
+
+    <string name="txtSelecione">Selecione...</string>
+
+    <string name="txtAtencao">Atenção!</string>
+    <string name="txtCamposObrigatorios">Você deve preencher os campos obrigatórios!</string>
+
+    <string name="txtCategoria">Categoria</string>
+    <string name="txtNovaCategoria">Nova Categoria...</string>
+
+    <string name="txtSalvar">Salvar</string>
+    <string name="txtCancelar">Cancelar</string>
+
+    <string name="hintCategoria">Selecione a categoria</string>
+
+
+
+</resources>
